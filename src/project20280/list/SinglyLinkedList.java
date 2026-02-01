@@ -8,6 +8,11 @@ public class SinglyLinkedList<E> implements List<E> {
 
     private static class Node<E> {
 
+        public int size() {
+            return size;
+        }
+
+
         private final E element;            // reference to the element stored at this node
 
         /**
